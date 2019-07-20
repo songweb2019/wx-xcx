@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/cloud/cloud",
+    "pages/exam01/exam01",
+    "pages/exam02/exam02",   
+    "pages/base/base",
+    "pages/exam/exam"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F0F0F0",
+    "navigationBarTitleText": "入门小程序示例",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#f00",
+    "backgroundColor": "#F6F6F6",
+    "list": [
+      {
+        "pagePath": "pages/base/base",
+        "text": "基础",
+        "iconPath": "images/02.png",
+        "selectedIconPath": "images/03.png"
+      },
+      {
+        "pagePath": "pages/exam/exam",
+        "text": "练习",
+        "iconPath": "images/04.png",
+        "selectedIconPath": "images/05.png"
+      },
+      {
+        "pagePath": "pages/exam01/exam01",
+        "text": "exam01",
+        "iconPath": "images/06.png",
+        "selectedIconPath": "images/07.png"
+      },
+      {
+        "pagePath":"pages/cloud/cloud",
+        "text":"cloud",
+        "iconPath":"images/06.png",
+        "selectedIconPath":"images/07.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

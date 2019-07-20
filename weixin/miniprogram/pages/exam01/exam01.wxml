@@ -1,0 +1,67 @@
+<!--pages/exam01/exam01.wxml-->
+<!-- day02
+   <view wx:for="{{数组}}" wx:key="数组下标">
+     {{item.name}} 当前对象
+     {{index}} 当前下标
+   </view>
+ -->
+<view>显示数据：</view>
+<view>{{msg}}</view>
+<view>{{num1}}</view>
+<view>{{bool1}}</view>
+<view wx:for="{{list}}" wx:key="index">{{item.name}}</view>
+
+<!-- 判断条件：
+    <view wx:if="{{condition}}">xxx</view>
+    condition 表达式变量 true-当前元素正常显示 false-当前元素删除
+ -->
+<view>判断条件：</view>
+<view wx:if="{{list.length>0}}">当前数组元素大于0</view>
+
+ <view>多个判断条件：</view>
+ <view wx:if="{{age<12}}">少年</view>
+ <view wx:elif="{{age<20}}">青少年</view>
+ <view wx:else>工作吧</view>
+
+<!--隐藏： 
+   ：如果频繁切换情景下 hidden更好
+   ：如果在运行时条件不大可能改变则 wx:if 更好
+-->
+ <view>隐藏：</view>
+ <view hidden='{{age==19}}'>年龄大于 20</view>
+
+
+<view>事件绑定方式：</view>
+<view>支持冒泡</view>
+<view bindtap='handle2'>
+   父元素
+   <view bindtap='handle1'>子元素</view>
+</view>
+<view>不支持冒泡</view>
+<view catchtap='handle4'>
+   父元素2
+   <view catchtap='handle3'>子元素2</view>
+</view>
+<view></view>
+
+<!-- 组件生命周期：一个组件创建开始到使用到最后销毁的过程
+  onLoad   组件创建成功触发一次
+  onReady  组件初始化渲染成功触发一次
+  onShow   显示组件 前台显示 多次
+  onHide   隐藏组件 后台 多次
+  onUnload 组件销毁
+
+  onPullDownRefresh 用户下拉操作
+       "enablePullDownRefresh": true   全局app.json修改允许下拉操作
+  onReachBottom  用户上拉操作
+-->
+<view>组件生命周期：</view>
+<button bindtap='jumpexam02'>跳转到exam02.html</button>
+
+<view>实践操作</view>
+<view>实践操作</view>
+<view>实践操作</view>
+<view>实践操作</view>
+<view>实践操作</view>
+<view>实践操作</view>
+<view>实践操作</view>

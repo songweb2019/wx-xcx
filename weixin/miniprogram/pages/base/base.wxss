@@ -1,0 +1,16 @@
+/* pages/base/base.wxss */
+/* 
+  (1) 尺寸单位：rpx(responsive pixel) 响应式像素，可以根据屏幕宽度自适应 
+     (iphone6) 750rpx = 750px   1rpx = 1物理像素 = 0.5px  
+     (iphone6plus)1rpx=0.552px
+  (2) 引入外wxss:  @import"../../style/common.wxss"
+*/
+ @import "../../style/common.wxss"
+.box{
+  width: 200rpx;
+  height: 200rpx;
+  background-color: green;
+}
+
+
+

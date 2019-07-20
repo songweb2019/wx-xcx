@@ -1,0 +1,6 @@
+/* 公共样式文件 style/common.wxss */
+.admin{
+  color:red;
+  font-size:30px;
+  border:1px solid blue;
+}

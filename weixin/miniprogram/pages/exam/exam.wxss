@@ -1,0 +1,28 @@
+/* pages/exam/exam.wxss */
+.father{
+  /* 默认弹性布局 子元素按行排列 */
+  display:flex;
+  /* 修改默认排列方式：垂直排列 */
+  flex-direction: column;
+}
+.son{
+  width: 100rpx;
+  height:100rpx;
+  border:1px solid red;
+}
+/* 居中练习 */
+.f2{
+  width: 300rpx;
+  height:300rpx;
+  border:1px solid red;
+  display: flex;
+  justify-content: center;/*子元素水平居中*/
+  align-items: center;/*垂直居中*/
+}
+.s2{
+  width: 100rpx;
+  height:100rpx;
+  background-color: red;
+  text-align:center;
+  line-height:50px;
+}

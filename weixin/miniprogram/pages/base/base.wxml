@@ -1,0 +1,14 @@
+<!--pages/base/base.wxml-->
+<!-- day01
+  selectable='true' 文本内容可以复制选中  
+  decode='true'     将文本装换为 &nbsp; 空格 
+  lazy-load='true'  懒加载,等待图片下载成功后加载 图片默认320*240大小
+ -->
+<text selectable='true' class="admin">微信小程序</text>
+<view class="container">
+  <view>轻量APP</view>
+  <view>降低开发成本</view>
+</view>
+<image src="../../images/01.png" lazy-load='true'></image>
+<view class="box">
+</view>
