@@ -1,0 +1,35 @@
+/* pages/minibook/minibook.wxss */
+ @import "../../style/common.wxss" 
+ .head{
+   border-bottom:3px solid #000;
+ }
+ .head{
+   display:flex;
+ }
+ .headimg{
+    display:flex;
+    margin:auto;
+    align-items:center;/*垂直居中*/
+ }
+ .headimg image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%; 
+ }
+
+.headtext{
+  font-size:20px;
+  display:flex;
+   margin:auto;
+  justify-content:center;/*子元素水平居中*/
+  align-items:flex-end;/*垂直居中*/
+}
+.headtext text{
+  
+}
+.head text:hover,.head text:link{
+   color:#000;
+}
+.head view{
+  display:flex;
+}

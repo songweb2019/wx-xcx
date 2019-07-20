@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/minibook/minibook",
+    "pages/mdbook/mdbook",
+    "pages/lgbook/lgbook",
+    "pages/nosql/nosql"
+  ],
+  "window": {
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "空空的网",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#000",
+    "list": [
+      {
+      "pagePath": "pages/minibook/minibook",
+      "text": "",
+      "iconPath": "images/bookbe.png",
+      "selectedIconPath": "images/book.png"
+    },
+    {
+      "pagePath": "pages/mdbook/mdbook",
+      "text": "",
+      "iconPath": "images/.png",
+      "selectedIconPath": "images/.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
